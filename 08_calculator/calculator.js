@@ -24,12 +24,18 @@ const multiply = function(arr) {
   return product
 };
 
-const power = function() {
-	
+const power = function(num, power) {
+	return num**power
 };
 
-const factorial = function() {
-	
+const factorial = function(num) {
+  let factorial = 1
+	for(let i = 1; i <= num; i++){
+
+     factorial = factorial * i
+  }
+
+  return factorial
 };
 
 // Do not edit below this line
