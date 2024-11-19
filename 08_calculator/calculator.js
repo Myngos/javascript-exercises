@@ -6,17 +6,22 @@ const subtract = function(a,b) {
 	return a -b;
 };
 
-const sum = function(arr, n) {
-  if(n <= 0){
+const sum = function(arr) {
+  if(arr<=0){
     return 0
   }
-  arr = arr.reduce((prev, next)=>{
+  let sum = arr.reduce((prev, next)=>{
     return prev + next
   })
+
+  return sum;
 };
 
-const multiply = function() {
-
+const multiply = function(arr) {
+  let product = arr.reduce((prev, next)=>{
+    return prev * next
+  })
+  return product
 };
 
 const power = function() {
