@@ -2,12 +2,17 @@ const add = function(a,b) {
 	return a + b;
 };
 
-const subtract = function() {
-	
+const subtract = function(a,b) {
+	return a -b;
 };
 
-const sum = function() {
-	
+const sum = function(arr, n) {
+  if(n <= 0){
+    return 0
+  }
+  arr = arr.reduce((prev, next)=>{
+    return prev + next
+  })
 };
 
 const multiply = function() {
