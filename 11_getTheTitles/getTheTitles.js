@@ -1,7 +1,7 @@
 const getTheTitles = function(arr) {
 
-    let titles = arr.map((array)=>{
-        return array.title
+    let titles = arr.map((book)=>{
+        return book.title
     })
 
     return titles
